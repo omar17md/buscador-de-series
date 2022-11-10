@@ -39,7 +39,7 @@ export default function Home () {
       </div>
       <div className='row'>
         <div className='col-6 ps-5'>
-          <button type='button' className='btn btn-primary btn-lg' onClick={prevPage}>Pag. Anterior</button>
+          {paginador > 1 && <button type='button' className='btn btn-primary btn-lg' onClick={prevPage}>Pag. Anterior</button>}
         </div>
         <div className='col-6 d-flex justify-content-end pe-5'>
           <button type='button' className='btn btn-primary btn-lg' onClick={nextPage}>Pag. Siguiente</button>
