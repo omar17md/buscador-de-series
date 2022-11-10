@@ -1,0 +1,9 @@
+export const AllSeriesURL = (page) => { return `https://api.tvmaze.com/shows?page=${page}` }
+export const SearchSerieULR = (str) => { return `https://api.tvmaze.com/search/shows?q=${str}` }
+export const SearchPeopleULR = (str) => { return `https://api.tvmaze.com/search/people?q=${str}` }
+export const ShowInformationSerieULR = (id) => { return `https://api.tvmaze.com/shows/${id}` }
+export const ShowEpisodesULR = (id) => { return `https://api.tvmaze.com/shows/${id}/episodes?specials=1` }
+export const ShowCastULR = (id) => { return `https://api.tvmaze.com/shows/${id}/cast` }
+export const ShowPeopletULR = (id) => { return `https://api.tvmaze.com/people/${id}` }
+export const ShowCastCreditULR = (id) => { return `https://api.tvmaze.com/people/${id}/castcredits?embed=show` }
+export const ShowEpisodeInfoULR = (id) => { return `https://api.tvmaze.com/episodes/${id}` }
