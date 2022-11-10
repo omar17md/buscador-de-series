@@ -1,7 +1,10 @@
+/* Components */
 import Loading from './common/Loading'
-import { ShowCastCreditULR } from '../api/Endpoints'
-import useGetData from '../hooks/useGetData'
 import Card from './common/Card'
+/* Custom hooks */
+import useGetData from '../hooks/useGetData'
+/* Endpoints */
+import { ShowCastCreditULR } from '../api/Endpoints'
 
 export default function CastCredit ({ id }) {
   const { data: credits, loading, error } = useGetData(ShowCastCreditULR(id))

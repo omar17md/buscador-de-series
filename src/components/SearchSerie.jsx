@@ -1,7 +1,10 @@
-import { SearchSerieULR } from '../api/Endpoints'
-import useGetData from '../hooks/useGetData'
+/* Components */
 import Loading from '../components/common/Loading'
 import Card from '../components/common/Card'
+/* Custom hooks */
+import useGetData from '../hooks/useGetData'
+/* Endpoints */
+import { SearchSerieULR } from '../api/Endpoints'
 
 export default function SearchSerie ({ str }) {
   const { data: series, loading, error } = useGetData(SearchSerieULR(str))

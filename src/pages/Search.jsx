@@ -1,3 +1,4 @@
+/* Components */
 import SearchSerie from '../components/SearchSerie'
 import SearchPeople from '../components/SearchPeople'
 import { useParams } from 'react-router-dom'

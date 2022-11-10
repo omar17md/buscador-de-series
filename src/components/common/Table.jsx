@@ -1,4 +1,6 @@
+/* Component */
 import { Link } from 'react-router-dom'
+/* utils */
 import ConvertToDate from '../../utils/ConvertToDate'
 
 export default function Table ({ season }) {

@@ -1,5 +1,7 @@
+/* Components */
 import { Outlet, useNavigate, Link } from 'react-router-dom'
 import { useRef } from 'react'
+/* utils */
 import { goToTop } from '../utils/goToTop'
 
 export default function Navbar () {

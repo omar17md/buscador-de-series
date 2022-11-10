@@ -1,8 +1,12 @@
+/* Components */
 import { useParams } from 'react-router-dom'
-import useGetData from '../hooks/useGetData'
 import Loading from '../components/common/Loading'
-import { ShowPeopletULR } from '../api/Endpoints'
 import CastCredit from '../components/CastCredit'
+/* Custom hooks */
+import useGetData from '../hooks/useGetData'
+/* Endpoints */
+import { ShowPeopletULR } from '../api/Endpoints'
+/* utils */
 import ConvertToDate from '../utils/ConvertToDate'
 
 export default function People () {

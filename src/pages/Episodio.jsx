@@ -1,7 +1,11 @@
+/* Components */
 import { useParams } from 'react-router-dom'
-import useGetData from '../hooks/useGetData'
 import Loading from '../components/common/Loading'
+/* Custom hooks */
+import useGetData from '../hooks/useGetData'
+/* Endpoints */
 import { ShowEpisodeInfoULR } from '../api/Endpoints'
+/* utils */
 import ConvertToDate from '../utils/ConvertToDate'
 
 export default function Episodio () {

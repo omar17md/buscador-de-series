@@ -1,7 +1,10 @@
-import { SearchPeopleULR } from '../api/Endpoints'
-import useGetData from '../hooks/useGetData'
+/* Components */
 import Loading from '../components/common/Loading'
 import Card from '../components/common/Card'
+/* Custom hooks */
+import useGetData from '../hooks/useGetData'
+/* Endpoints */
+import { SearchPeopleULR } from '../api/Endpoints'
 
 export default function SearchPeople ({ str }) {
   const { data: people, loading, error } = useGetData(SearchPeopleULR(str))

@@ -1,8 +1,11 @@
-import { ShowEpisodesULR } from '../api/Endpoints'
-import useGetData from '../hooks/useGetData'
+/* Components */
 import Accordion from './common/Accordion'
 import Table from './common/Table'
 import Loading from './common/Loading'
+/* Custom hooks */
+import useGetData from '../hooks/useGetData'
+/* Endpoints */
+import { ShowEpisodesULR } from '../api/Endpoints'
 
 export default function Episodios ({ id }) {
   const { data: episodios, loading, error } = useGetData(ShowEpisodesULR(id))

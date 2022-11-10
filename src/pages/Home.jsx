@@ -1,8 +1,12 @@
+/* Components */
 import Card from '../components/common/Card'
-import useGetData from '../hooks/useGetData'
-import { AllSeriesURL } from '../api/Endpoints'
 import Loading from '../components/common/Loading'
 import { useState } from 'react'
+/* Custom hooks */
+import useGetData from '../hooks/useGetData'
+/* Endpoints */
+import { AllSeriesURL } from '../api/Endpoints'
+/* utils */
 import { goToTop } from '../utils/goToTop'
 
 export default function Home () {

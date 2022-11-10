@@ -1,9 +1,13 @@
+/* Components */
 import { useParams } from 'react-router-dom'
-import { ShowInformationSerieULR } from '../api/Endpoints'
 import Loading from '../components/common/Loading'
-import useGetData from '../hooks/useGetData'
 import Episodios from '../components/Episodios'
 import Cast from '../components/Cast'
+/* Custom hooks */
+import useGetData from '../hooks/useGetData'
+/* Endpoints */
+import { ShowInformationSerieULR } from '../api/Endpoints'
+/* utils */
 import ConvertToDate from '../utils/ConvertToDate'
 
 export default function Serie () {

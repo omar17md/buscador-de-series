@@ -1,7 +1,10 @@
+/* Components */
 import Loading from './common/Loading'
-import { ShowCastULR } from '../api/Endpoints'
-import useGetData from '../hooks/useGetData'
 import CardHortizontal from './common/CardHorizontal'
+/* Custom hooks */
+import useGetData from '../hooks/useGetData'
+/* Endpoints */
+import { ShowCastULR } from '../api/Endpoints'
 
 export default function Cast ({ id }) {
   const { data: casting, loading, error } = useGetData(ShowCastULR(id))
