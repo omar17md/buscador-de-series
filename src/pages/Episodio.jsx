@@ -26,9 +26,9 @@ export default function Episodio () {
           </div>
         </div>
         <div className='col-4'>
-          <div className='d-flex flex-column justify-content-center  h-70  info'>
+          <div className='d-flex flex-column justify-content-center bg-secondary h-70  info'>
             <div className='p-3 '>
-              <h3>Show Info</h3>
+              <h3 className='text-white'><b>Show Info</b></h3>
               <ul className='list-group list-group-flush'>
                 <li className='list-group-item'><b>Season: </b>{episode?.season || 'n/a'}</li>
                 <li className='list-group-item'><b>Number: </b>{episode?.type === 'regular' ? episode?.number || 'n/a' : 'Special'}</li>

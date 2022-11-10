@@ -28,9 +28,9 @@ export default function Serie () {
           </div>
         </div>
         <div className='col-4'>
-          <div className='d-flex flex-column justify-content-center  h-70  info'>
+          <div className='d-flex flex-column justify-content-center bg-secondary h-70  info'>
             <div className='p-3 '>
-              <h3>Show Info</h3>
+              <h3 className='text-white'><b>Show Info</b></h3>
               <ul className='list-group list-group-flush'>
                 <li className='list-group-item'><b>Network: </b> <a href={serie?.network?.officialSite} target='_blank' rel='noreferrer'>{serie?.network?.name || 'n/a'}</a> </li>
                 <li className='list-group-item'><b>Language: </b> {serie?.language || 'n/a'}</li>

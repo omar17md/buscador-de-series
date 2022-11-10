@@ -22,9 +22,9 @@ export default function People () {
               <img src={person.image?.medium || '../../assets/nosignal.jpg'} alt={person.name} style={{ height: '400px' }} />
             </div>
             <div className='flex-grow-1 ms-3'>
-              <div className='d-flex flex-column justify-content-center  h-70  info'>
+              <div className='d-flex flex-column justify-content-center bg-secondary h-70  info'>
                 <div className='p-3 '>
-                  <h3>Person Info</h3>
+                  <h3 className='text-white'><b>Person Info</b></h3>
                   <ul className='list-group list-group-flush'>
                     <li className='list-group-item'><b>Country: </b>{person?.country?.name || 'n/a'}</li>
                     <li className='list-group-item'><b>Gender: </b>{person?.gender || 'n/a'}</li>

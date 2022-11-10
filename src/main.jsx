@@ -3,8 +3,8 @@ import { BrowserRouter } from 'react-router-dom'
 import { ToastContainer } from 'react-toastify'
 import { HelmetProvider } from 'react-helmet-async'
 /* styles */
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'react-toastify/dist/ReactToastify.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'react-toastify/dist/ReactToastify.min.css'
 import './styles/styles.css'
 /* Router */
 import Paths from './Paths'

@@ -12,7 +12,7 @@ export default function CastCredit ({ id }) {
     <>
       <div className='container-fluid'>
         <div className='row'>
-          <div className='row row-cols-4 d-flex justify-content-evenly text-black'>
+          <div className='row row-cols-4 d-flex justify-content-evenly text-white'>
             {credits.length === 0 && <h2 className='text-white d-flex justify-content-center'>No information</h2>}
             {credits.map((credit, key) => (
               <Card key={key} data={credit._embedded.show} url={`/bingewatching/serie/${credit._embedded.show.id}`} />

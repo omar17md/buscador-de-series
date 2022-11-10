@@ -35,7 +35,7 @@ export default function Navbar () {
         </div>
       </nav>
       <div>
-        <main className='p-4 text-black'>
+        <main className='p-4 text-white'>
           <button className='back-to-top hidden' onClick={goToTop}>
             <svg
               xmlns='http://www.w3.org/2000/svg'

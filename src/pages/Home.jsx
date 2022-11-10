@@ -31,7 +31,7 @@ export default function Home () {
   return (
     <div className='container-fluid mt-5 mt-3'>
       <div className='row'>
-        <div className='row row-cols-5 d-flex justify-content-evenly '>
+        <div className='row row-cols-5 d-flex justify-content-evenly text-white'>
           {CargarSeries().map((serie, index) => (
             <Card key={index} data={serie} url={`/bingewatching/serie/${serie.id}`} />
           ))}
