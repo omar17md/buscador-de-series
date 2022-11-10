@@ -23,10 +23,7 @@ export default function Navbar () {
       <nav className='navbar navbar-dark bg-dark p-3 barra'>
         <div className='container-fluid d-flex justify-content-center '>
           <Link to='/bingewatching'>
-            <button className=' navbar-brand btn btn-outline-info' type='submit'>Home</button>
-          </Link>
-          <Link to='/bingewatching'>
-            <h2 className='navbar-brand me-5'>Binge-Watching</h2>
+            <button className=' navbar-brand btn btn-outline-info' type='submit'>Binge-Watching</button>
           </Link>
           <form className='d-flex' role='search' onSubmit={handledSumbit}>
             <input className='form-control me-2' type='search' placeholder='Search Shows and People...' aria-label='Search' ref={inputRef} />
