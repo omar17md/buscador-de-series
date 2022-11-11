@@ -26,7 +26,7 @@ export default function Episodio () {
             </div>
             {episode?.summary
               ? <div className='flex-grow-1 ms-3' dangerouslySetInnerHTML={{ __html: episode.summary }} />
-              : `We don't have a summary ${episode.name}, la malédiction doit frapper yet.`}
+              : `We don't have a summary ${episode.name} yet.`}
           </div>
         </div>
         <div className='col-4'>
